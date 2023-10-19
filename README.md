@@ -17,7 +17,7 @@ This is a Python GitHub Template Repository that includes the following contents
 
 This tool provides a simple command-line interface to interact with an SQLite database.  
 1. Clone the GitHub repository:  
-   git clone [URL]
+   git clone [https://github.com/carolxu369/IDS706-Week7-Mini-Project.git]
 2. Navigate to the tool's directory:  
    cd my_tool
 3. Install the tool:  
