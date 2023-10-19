@@ -1,0 +1,12 @@
+{
+    "name": "Python Project",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": ".."
+    },
+    "runArgs": [ "-v", "/usr/src/app" ],
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": ["ms-python.python"]
+  }  
