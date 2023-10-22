@@ -18,13 +18,22 @@ This is a Python GitHub Template Repository that includes the following contents
 This tool provides a simple command-line interface to interact with an SQLite database.  
 1. Clone the GitHub repository:  
    git clone [https://github.com/carolxu369/IDS706-Week7-Mini-Project.git]
-2. Navigate to the tool's directory:  
-   cd my_tool
-3. Install the tool:  
+2. Install the tool:  
    pip install .
-4. Initializing the Database:  
+3. Initializing the Database:  
    mytool init
-5. Adding Data to the Database:  
+4. Adding Data to the Database:  
    mytool add "Some data content here."
-6. Viewing All Data:  
-   mytool view
+5. Viewing All Data:  
+   mytool view  
+  
+After testing with the following prompts:  
+  
+mytool add "Sample text entry 1"  
+mytool add "Database testing content"  
+mytool add "Test data"  
+
+Run mytool view should have the following:  
+(1, 'Sample text entry 1')  
+(2, 'Database testing content')  
+(3, 'Test data')  
